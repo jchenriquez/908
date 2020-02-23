@@ -1,0 +1,37 @@
+{
+    "test1": {
+        "s": "ADOBECODEBANC",
+        "t": "ABC",
+        "output": "BANC"
+    },
+    "test2": {
+        "s": "ADOBECODEBANC",
+        "t": "BED",
+        "output": "DEB"
+    },
+    "test3": {
+        "s": "ADOBECODEBANC",
+        "t": "A",
+        "output": "A"
+    },
+    "test4": {
+        "s": "a",
+        "t": "aa",
+        "output": ""
+    },
+    "test5": {
+        "s": "bba",
+        "t": "ab",
+        "output": "ba"
+    },
+    "test6": {
+        "s": "bbaa",
+        "t": "aba",
+        "output": "baa"
+    },
+    "test7": {
+        "s": "babb",
+        "t": "baba",
+        "output": ""
+    }
+}
